@@ -2,7 +2,7 @@ require "./url_parser"
 require 'pry'
 describe URLParser do
   let(:url) { "http://www.example.com" }
-  let(:parsed) { URLParser.parse(url) }
+  let(:parsed) { URLParser.parse(url: url) }
 
   describe "with regular strings" do
     let(:url) { "http://www.example.com" }

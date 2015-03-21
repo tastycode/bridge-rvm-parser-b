@@ -4,7 +4,7 @@ class URLParser
     @raw = input
   end
 
-  def self.parse(url)
+  def self.parse(url:)
     new(url)
   end
 
